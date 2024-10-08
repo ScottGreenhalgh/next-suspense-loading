@@ -25,3 +25,26 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Header */
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Throbber */
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 2s infinite;
+}
