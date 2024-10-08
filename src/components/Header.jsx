@@ -6,6 +6,7 @@ export default function Header() {
       <Link href="/">Home</Link>
       <Link href="/fast">Fast</Link>
       <Link href="/slow">Slow</Link>
+      <Link href="/broken">Broken</Link>
     </nav>
   );
 }
